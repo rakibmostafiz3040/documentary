@@ -1,0 +1,104 @@
+.container {
+    font-size:40px;
+    color: red;
+    margin-left: 10px;
+
+}
+
+/* cursor :start */
+.con{
+    padding-left: 70px;
+}
+.n-resize {cursor: n-resize;}
+.ne-resize {cursor: ne-resize;}
+.nesw-resize {cursor: nesw-resize;}
+.ns-resize {cursor: ns-resize;}
+.nw-resize {cursor: nw-resize;}
+.nwse-resize {cursor: nwse-resize;}
+.no-drop {cursor: no-drop;}
+.none {cursor: none;}
+.col-resize {cursor: col-resize;}
+.context-menu {cursor: context-menu;}
+.copy {cursor: copy;}
+.crosshair {cursor: crosshair;}
+.default {cursor: default;}
+.e-resize {cursor: e-resize;}
+.ew-resize {cursor: ew-resize;}
+.grab {cursor: -webkit-grab; cursor: grab;}
+
+/* cursor :end */
+/* Animation Timing Start */
+
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 250px;}
+  }
+  
+  
+  #div1 {animation-timing-function: linear;
+    width: 100px;
+    height: 50px;
+    background: violet;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 4.2s infinite;
+  
+  }
+  
+  #div2 {animation-timing-function: ease;
+    width: 100px;
+    height: 50px;
+    background: skyblue;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 4s infinite;
+    
+  }
+  #div3 {animation-timing-function: ease-in;
+    width: 100px;
+    height: 50px;
+    background: green;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 3.50s infinite;
+  }
+  #div4 {animation-timing-function: ease-out;
+    width: 100px;
+    height: 50px;
+    background: yellow;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 3.1s infinite;
+  }
+  #div5 {animation-timing-function: ease-in-out;
+    width: 100px;
+    height: 50px;
+    background:orange;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 4.1s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+  
+ 
+  
+    
+  
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 400px;}
+  }
+  
+  /* Animation Timing End */
+  
